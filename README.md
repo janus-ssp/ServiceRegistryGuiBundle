@@ -9,4 +9,13 @@ assetic:
       - JanusServiceRegistryGuiBundle
     filters:
         cssrewrite: ~
+
+# Twig Configuration
+twig:
+    debug:            %kernel.debug%
+    strict_variables: %kernel.debug%
+    #@todo correct controller name
+    exception_controller: 'FOS\RestBundle\Controller\ExceptionController::showAction'
+
 ```
+
