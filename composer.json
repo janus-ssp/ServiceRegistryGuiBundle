@@ -1,0 +1,23 @@
+{
+    "name": "janus-ssp/serviceregistry-gui-bundle",
+    "type": "symfony-bundle",
+    "description": "Gui Bundle for janus",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3",
+        "janus-ssp/janus": "*",
+        "twig/extensions": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Janus\\ServiceRegistry\\Bundle\\GuiBundle": ""
+        }
+    },
+    "target-dir": "Janus/ServiceRegistry/Bundle/GuiBundle",
+    "authors": [
+        {
+            "name": "Lucas van Lierop",
+            "email": "lucas@vanlierop.org"
+        }
+    ]
+}
