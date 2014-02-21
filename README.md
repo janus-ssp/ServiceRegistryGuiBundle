@@ -19,3 +19,10 @@ twig:
 
 ```
 
+Put this in your config_dev.yml
+```yml
+assetic:
+    use_controller: false
+    debug: true
+```
+
