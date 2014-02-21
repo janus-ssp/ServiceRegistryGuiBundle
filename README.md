@@ -26,3 +26,11 @@ assetic:
     debug: true
 ```
 
+Put this in your routing.yml
+```yml
+JanusServiceRegistryGuiBundle:
+  resource: @JanusServiceRegistryGuiBundle/Resources/config/routing.yml
+  prefix: /
+```
+
+
